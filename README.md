@@ -74,5 +74,3 @@ Help a pizza shop make **better staffing and promotion decisions** by:
 
 ---
 
-## 📁 Repository Structure
-
