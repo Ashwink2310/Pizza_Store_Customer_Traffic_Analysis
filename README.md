@@ -1,11 +1,11 @@
 # Pizza Store Customer Traffic Analysis
 
-## 📌 TLDR
+## TLDR
 Built a machine learning pipeline to **predict customer occupancy** at a pizza store and **cluster daily demand patterns** using order history, weather data, and Google Trends. Achieved **98.8 percent accuracy** for peak group sizes using a **Voting Classifier**, and identified **three demand clusters** to guide **staffing, inventory, and targeted promotions**.
 
 ---
 
-## 🎯 Objective
+## Objective
 Help a pizza shop make **better staffing and promotion decisions** by:
 
 - Predicting **how busy the store will be at any given time**
@@ -14,7 +14,7 @@ Help a pizza shop make **better staffing and promotion decisions** by:
 
 ---
 
-## 🗂️ Data Sources
+## Data Sources
 
 | Data Type      | Details |
 |----------------|---------|
@@ -25,7 +25,7 @@ Help a pizza shop make **better staffing and promotion decisions** by:
 
 ---
 
-## 🧠 Feature Engineering Highlights
+## Feature Engineering Highlights
 
 - Extracted **day of week, season, hour** from timestamps  
 - Computed **per-order and per-day revenue**  
@@ -35,7 +35,7 @@ Help a pizza shop make **better staffing and promotion decisions** by:
 
 ---
 
-## 🤖 Modeling Approach
+## Modeling Approach
 
 ### **Classification (Occupancy Level Prediction)**
 | Model | Purpose | Outcome |
@@ -55,7 +55,7 @@ Help a pizza shop make **better staffing and promotion decisions** by:
 
 ---
 
-## 📊 Cluster Insights
+## Cluster Insights
 
 | Cluster | Behavior | Recommendation |
 |---------|----------|----------------|
@@ -65,7 +65,7 @@ Help a pizza shop make **better staffing and promotion decisions** by:
 
 ---
 
-## ✅ Key Recommendations
+## Key Recommendations
 
 - Promote **Large Chicken & Classic** pizzas across clusters  
 - Launch **Veggie-heavy offers** for Cluster 1  
