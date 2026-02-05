@@ -29,8 +29,6 @@ The project uses pizza restaurant transactional data with external enrichment:
 - **Weather**: NYC 2015 daily weather (temperature, precipitation, wind, events)
 - **Trends**: Google search volume for pizza-related terms (weekly by category)
 
-**Note**: Dataset files are not included in this repository. Sample data format provided in `/data/README.md`.
-
 ### Key Features
 - **Temporal**: Hour, minute, day of week, day of month, month, season
 - **Operational**: Pizza type, size, category, ingredients (79 binary columns)
