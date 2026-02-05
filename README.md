@@ -14,14 +14,6 @@ This project develops an end-to-end analytics solution for a pizza restaurant to
 - **Clustering**: K-Means and Hierarchical analysis identifying 2-3 distinct operational day types
 - **Business Impact**: Staffing cost model quantifying labor optimization and revenue protection
 
-## Technologies Used
-
-- **Languages**: Python 3.x
-- **ML Frameworks**: scikit-learn, Pandas, NumPy
-- **Models**: Random Forest Regression, K-Means, Agglomerative Clustering, PCA
-- **Visualization**: Matplotlib, Seaborn
-- **Data Sources**: Pizza sales transactions, NYC weather data, Google Trends
-
 ## Dataset
 
 The project uses pizza restaurant transactional data with external enrichment:
@@ -143,7 +135,7 @@ The project uses pizza restaurant transactional data with external enrichment:
 - [ ] A/B testing ML-informed vs intuition-based staffing
 - [ ] POS system integration for automated data ingestion
 
-## 📚 Requirements
+## Requirements
 numpy>=1.24.0
 pandas>=2.0.0
 matplotlib>=3.7.0
